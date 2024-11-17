@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.pieRICO{
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    bottom: 60%;
+    display: flex;
+    justify-content: center;
+    background: rgb(236,98,39);
+    background: linear-gradient(180deg, rgba(236,98,39,1) 19%, rgba(134,56,22,1) 88%);
+}
+
+.sociales{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.ic1,.ic2,.ic3,.ic4{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+
+.logito{
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    margin-top: -1.5%;
+}
+
+.linea1{
+    position: absolute;
+    width: 750px;
+    background-color: #202124;
+    height: 2.5px;
+    margin-top: 6%;
+    margin-right: 60%;
+}
+
+.linea2{
+    position: absolute;
+    width: 750px;
+    background-color: #202124;
+    height: 2.5px;
+    margin-top: 6%;
+    margin-left: 60%;
+}
+
+.info{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 10px;
+}
+
+.cr{
+    position: absolute;
+    color: white;
+    right: 85%;
+    bottom: 2.5%;
+}
