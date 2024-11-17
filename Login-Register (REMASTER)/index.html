@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <img class="menu-icon" src="/Pagina_Principal/img/menu-icon.svg" alt="menu-icon">
+        <div class="logo-cont">
+            <img class="logo-header" src="/Pagina_Principal/img/logo.svg" alt="logo">
+        </div>
+    </header>
+    
+<div class="container">
+    <div class="Dregistro">
+        <h1 class="in" id="in2">Ingreso</h1>
+        <h1 class="re" id="re2">Registro</h1>
+    </div>
+    <div class="box">
+        <form action="../formulario.php" method="post">
+            <div class="box-login" id="login">
+            <div class="top-header">
+
+            </div>
+            <div class="input-group">
+                <div class="input-field">
+                    <input type="text" name="logEmail" class="input-box" id="" required>
+                    <label for="logEmail">Usuario</label>
+                </div>
+
+                <div class="input-field">
+                    <input type="password" class="input-box" id="logPassword" name="" required>
+                    <label for="logPassword">Contraseña</label>
+                    <div class="eye-area">
+                            <div class="eye-box" onclick="myLogPassword()">
+                                <i class="fa-regular fa-eye" id="eye"></i>
+                                <i class="fa-regular fa-eye-slash" id="eye-slash"></i>
+                            </div>
+                    </div>
+                </div>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                <div class="input-field">
+                        <input type="submit" class="input-submit" value=" Iniciar sesión" onclick=" location.href='../formulario.php'">
+                </div>
+            </div>
+        </div>
+        </form>
+        <form action="" method="post">
+                <div class="box-register" id="register">
+                <div class="top-header">
+                </div>
+                <div class="input-group">
+                    <div class="input-field">
+                        <input type="text" name="nombre" class="input-box" id="" required>
+                        <label for="regUser">Usuario</label>
+                    </div>
+                    <div class="input-field">
+                        <input name="contra" type="password" class="input-box" id="" required>
+                        <label for="regPassword">Contraseña</label>
+                        <div class="eye-area">
+                                <div class="eye-box" onclick="myRegPassword()">
+                                    <i class="fa-regular fa-eye" id="eye-2"></i>
+                                    <i class="fa-regular fa-eye-slash" id="eye-slash-2"></i>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" name="nombre" class="input-box" id="" required>
+                        <label for="regUser">Correo electronico</label>
+                    </div>
+                    <div class="input-field">
+                        <input name="correo" type="text" class="input-box" id="" required>
+                        <label for="regEmail">Numero de telefono</label>
+                    </div>
+                    <br>
+                    <div class="input-field-Date">
+                        <input type="date" name="nombre" class="input-box" id="" required>
+                    </div>
+                    <br>
+                    <div class="input-field">
+                        <p>Fecha de nacimiento</p>
+                        <input type="submit" class="input-submit" value="Registrarse">
+                    </div>
+                    
+                </div>
+            </div>
+        </form>
+    <div class="switch">
+        <a href="#" class="login" onclick="login()">Login</a>
+        <a href="#" class="register" onclick="register()">Register</a>
+        <div class="btn-active" id="btn"></div>
+    </div>
+    </div>
+</div>
+
+<div class="pieRICO">
+    <div class="linea1"></div>
+    <div class="linea2"></div>
+    <div class="sociales">
+        <img class="ic1" src="imgs/ic1.png" alt="">
+        <img class="ic2" src="imgs/ic2.png" alt="">
+        <img class="ic3" src="imgs/ic3.png" alt="">
+        <img class="ic4" src="imgs/ic4.png" alt="">
+    </div>
+    <img class="logito" src="imgs/logo.svg" alt="">
+    <div class="info">
+        <h1>Teodoro García, 3899, Chacarita</h1>
+        <br>
+        <img src="imgs/ubi.png" alt="">
+    </div>
+    <p class="cr">Copyright © 1999-2024 CArreati inc.</p>
+</div>
+
+<script>
+    var x = document.getElementById('login');
+    var y = document.getElementById('register');
+    var z = document.getElementById('btn');
+    var t = document.getElementById("re2");
+    var n = document.getElementById("in2");
+
+    function login(){
+        x.style.left = "27px";
+        y.style.right = "-550px";
+        z.style.left = "0px";
+        t.style.left = "-350px"
+        n.style.left = "110px"
+    }
+    function register(){
+        x.style.left = "-550px";
+        y.style.right = "40px";
+        z.style.left = "215px";
+        t.style.left = "110px";
+        n.style.left = "-350px"
+    }
+
+function myLogPassword(){
+    var a = document.getElementById('logPassword');
+    var b = document.getElementById('eye');
+    var c = document.getElementById('eye-slash');
+    if(a.type === "password"){
+        a.type = "text"
+        b.style.opacity = "0";
+        c.style.opacity = "1";
+    }else{    
+        a.type = "password"
+        b.style.opacity = "1";
+        c.style.opacity = "0";
+    }
+}
+function myRegPassword(){
+var d = document.getElementById('regPassword');
+var b = document.getElementById("eye-2");
+var c = document.getElementById("eye-slash-2");
+if(d.type === "password"){
+    d.type = "text"
+    b.style.opacity = "0";
+    c.style.opacity = "1";
+}else{    
+    d.type = "password"
+    b.style.opacity = "1";
+    c.style.opacity = "0";
+}
+}
+</script>
+<img class="noPIBE" src="imgs/prohibido.gif" alt="">
+
+</body>
+</html>
