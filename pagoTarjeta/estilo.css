@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #202124;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    background-color: #EC6227;
+    position:fixed;
+    top:0;
+}
+.logo-cont{
+    background-color: #EC6227;
+    width: 250px;
+    height: 55px;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%,20%)
+}
+.logo-header{
+    width: 200px;
+    position: relative;
+    bottom: 5%;
+}
+.menu-icon{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 1%;
+}
+
+.holder{
+    display: flex;
+    justify-content: center;
+    margin-top: 13.5%;
+    width: 950px;
+    height: 450px;
+}
+
+.input-field{
+    display: flex;
+    color: white;
+    position: absolute;
+    font-size: 35px;
+    margin-left: -9%;
+}
+
+.input-field2{
+    display: flex;
+    color: white;
+    position: absolute;
+    font-size: 35px;
+    margin-top: 5%;
+    margin-left: -5%;
+}
+
+.input-field3{
+    display: flex;
+    color: white;
+    position: absolute;
+    font-size: 35px;
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+.input-field input
+,.input-field2 input{
+    text-align: center;
+    width: 500px;
+    margin-left: 25px;
+    color: white;
+    border: none;
+    background: none;
+    font-size: 35px;
+}
+
+.input-field3 input{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    width: 250px;
+    margin-left: 25px;
+    color: white;
+    border: none;
+    background: none;
+    font-size: 35px;
+}
+
+
+.input-field input:focus
+,.input-field2 input:focus
+,.input-field3 input:focus{
+    outline: none;
+}
+
+.linea{
+    position: absolute;
+    width: 950px;
+    height: 2.5px;
+    margin-top: 2.5%;
+    background-color: #EC6227;
+}
+
+.linea2{
+    position: absolute;
+    width: 950px;
+    height: 2.5px;
+    margin-top: 7.5%;
+    background-color: #EC6227;
+}
+
+.linea3{
+    position: absolute;
+    width: 550px;
+    height: 2.5px;
+    margin-top: 12.5%;
+    margin-left: -400px;
+    background-color: #EC6227;
+}
+
+.linea4{
+    position: absolute;
+    width: 350px;
+    height: 2.5px;
+    margin-top: 12.5%;
+    margin-left: 600px;
+    background-color: #EC6227;
+}
+
+button{
+    position: absolute;
+    width: 225px;
+    height: 75px;
+    font-size: 25px;
+    border-radius: 15px;
+    margin-top: 20%;
+    border: none;
+    background-color: #EC6227;
+    color: white;
+    transition: all 0.5s;
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    letter-spacing: 3px;
+    background-color: #D8652D(261deg 80% 48%);
+    color: #D8652D(0, 0%, 100%);
+    box-shadow: 5px 5px 60px #D8652D ;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.tipoTarjeta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -25%;
+    width: 400px;
+    height: 250px;
+    background-color: grey;
+}
+
+.tarjetaV{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    right: 550px;
+}
+
+.tarjetaM{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    left: 550px;
+}
+
+.noTarjeta{
+    width: 350px;
+    height: 200px;
+}
