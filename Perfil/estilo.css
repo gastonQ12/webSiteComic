@@ -1,0 +1,461 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #202124;
+
+
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    background-color: #EC6227;
+    position:fixed;
+    top:0;
+}
+.logo-cont{
+    background-color: #EC6227;
+    width: 250px;
+    height: 55px;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 50%;
+    transform: translate(50%,20%);
+    z-index: 999;
+}
+.logo-header{
+    width: 200px;
+    position: relative;
+    bottom: 5%;
+}
+.menu-icon{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 1%;
+}
+
+
+.f1{
+    height: 50vh;
+    background-image: url(imgs/fondo1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.ComicsRec{
+    border-radius: 0.45em;
+    height: 50px;
+    width: 850px;
+    background-color: #D8652D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 25%;
+}
+
+.vt{
+    border: none;
+    color: white;
+    background: #444444;
+    padding: 0.5%;
+    border-radius: 0.45em;
+    position: absolute;
+    left: 67%;
+}
+
+.vt:hover{
+    color: #444444;
+    background-color: white;
+    
+}
+
+.lineaC{
+    height: 30vh;
+    background-color: black;
+}
+
+.randoms{
+    position: absolute;
+    margin-top: -25%;
+}
+
+.cuesta{
+    position: absolute;
+    height: 50vh;
+    margin-top: -25%;
+}
+
+.troleo{
+    position: absolute;
+    height: 1000px;
+    width: 2000px;
+    background-color: #202124;
+    margin-top: -30%;
+}
+
+.pieRICO{
+    z-index: 10;
+    position: absolute;
+    width: 2000px;
+    height: 300px;
+    margin-top: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(236,98,39);
+    background: linear-gradient(180deg, rgba(236,98,39,1) 19%, rgba(134,56,22,1) 88%);
+}
+
+.sociales{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.ic1,.ic2,.ic3,.ic4{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    transition: all 0.1s;
+}
+
+.ic1:hover,.ic2:hover,.ic3:hover,.ic4:hover{
+    transform: scale(1.2);
+}
+
+.logito{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-top: -1%;
+}
+
+.linea1{
+    position: absolute;
+    width: 800px;
+    background-color: #202124;
+    height: 5px;
+    margin-top: 6%;
+    margin-right: 60%;
+}
+
+.linea2{
+    position: absolute;
+    width: 800px;
+    background-color: #202124;
+    height: 5px;
+    margin-top: 6%;
+    margin-left: 60%;
+}
+
+.info{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 10px;
+}
+
+.cr{
+    position: absolute;
+    color: white;
+    right: 85%;
+    bottom: 2.5%;
+}
+
+.fondito1{
+    background-image: url(imgs/fondo1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 2000px;
+}
+
+
+
+.divisor{
+    height: 200px;
+    width: 2000px;
+    background: rgb(32,33,36);
+    background: linear-gradient(180deg, rgba(32,33,36,0) 0%, rgba(32,33,36,1) 100%);
+    margin-top: -10%;
+}
+
+.user{
+    margin-left: 5%;
+}
+
+.userUI{
+    position: absolute;
+    background-color: #EC6227;
+    width: 430px;
+    height: 400px;
+    clip-path: polygon(5% 26%, 74% 27%, 83% 80%, 7% 91%);
+    margin-left: 40%;
+    margin-top: -10%;
+    z-index: 1;
+}
+
+.shadow{
+    position: absolute;
+    background-color: black;
+    width: 430px;
+    height: 400px;
+    clip-path: polygon(5% 26%, 74% 27%, 83% 80%, 7% 91%);
+    margin-left: 41%;
+    margin-top: -9%;
+    z-index: 0;
+}
+
+.upc{
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    border: 10px solid #EC6227;
+    background-color: white;
+    margin-left: 38%;
+    margin-top: -7%;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.b1{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2.5px solid black;
+    background-color: white;
+    margin-left: 48%;
+    margin-top: -4%;
+    z-index: 9;
+    background-image: url(imgs/campana.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.b2{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2.5px solid black;
+    background-color: white;
+    margin-left: 52.5%;
+    margin-top: -4%;
+    z-index: 9;
+    background-image: url(imgs/carro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.upc,.b1,.b2{
+    transition: all 0.2s;
+}
+
+.upc:hover,.b1:hover,.b2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.upc:active,.b1:active,.b2:active{
+    transform: scale(0.95);
+}
+
+.userName{
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 275px;
+    border-radius: 25px;
+    rotate: -7deg;
+    margin-left: 43%;
+    margin-top: 5%;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+#cCarousel {
+    background-color: #343434;
+    position: relative;
+    max-width: 1800px;
+    margin: auto;
+    margin-top: 25%;
+    margin-left: 7%;
+    
+  }
+  
+  #cCarousel .arrow {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    z-index: 1;
+    font-size: 26px;
+    color: white;
+    background: #00000072;
+    cursor: pointer;
+  }
+  
+  #cCarousel #prev {
+    left: 0px;
+  }
+  
+  #cCarousel #next {
+    right: 0px;
+  }
+  
+  #carousel-vp {
+    width: 1040px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  @media (max-width: 770px) {
+    #carousel-vp {
+      width: 510px;
+    }
+  }
+  
+  @media (max-width: 510px) {
+    #carousel-vp {
+      width: 250px;
+    }
+  }
+  
+  #cCarousel #cCarousel-inner {
+    display: flex;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+    gap: 10px;
+    left: 0px;
+  }
+  
+  .cCarousel-item {
+    width: 250px;
+    height: 365px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-image: url(imgs/c3.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  
+  
+  .cCarousel-item img {
+    width: 100%;
+    object-fit: cover;
+    min-height: 246px;
+    color: white;
+  }
+  
+  .cCarousel-item .infos {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    color: black;
+  }
+  
+  .cCarousel-item .infos button {
+    background: #222;
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .car1{
+    position: absolute;
+    width: 2000px;
+    height: 200px;
+  }
+
+  .car2{
+    position: absolute;
+    width: 2000px;
+    height: 200px;
+    margin-top: 40%;
+  }
+
+
+  .noseComics1{
+    position: absolute;
+    background-color: #EC6227;
+    height: 70px;
+    width: 1200px;
+    border-radius: 15px;
+    margin-left: 22.5%;
+    margin-top: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+  }
+
+  .noseComics2{
+    position: absolute;
+    background-color: #EC6227;
+    height: 70px;
+    width: 1200px;
+    border-radius: 15px;
+    margin-left: 22.5%;
+    margin-top: 60%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+  }
+
+  .vtodos{
+    border: none;
+    color: white;
+    background-color: #444444;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 60%;
+  }
