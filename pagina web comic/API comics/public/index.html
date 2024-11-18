@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Comic</title>
+  <link rel="shortcut icon" href="https://drive.google.com/thumbnail?id=1vfrMyHxA7rpldz9c2JVdejBoapJyHURG" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="menu-icon" onclick="toggleMenu()" alt="menu-icon">
+        &#9776;
+    </div>
+    <a href="http://127.0.0.1:5501/Pagina_Principal/index.html">
+        <div class="logo-cont">
+            <img class="logo-header" src="https://drive.google.com/thumbnail?id=1cB-ePvZmLltwAdJcyiD1prkNvpPNkqsj" alt="logo">
+        </div>
+    </a>
+</header>
+  <div id="side-menu" class="side-menu">
+    <div class="user-info">
+      <img src="user_image.jpg" alt="User Image" class="user-image">
+      <p>Admin</p>
+    </div>
+    <ul class="menu-list">
+      <li onclick="window.location.href='http://127.0.0.1:5501/Admin/panel/index.html'">Admin Panel</li>
+      <li onclick="window.location.href='http://127.0.0.1:5501/Admin/editar/index.html'">Editar Comics</li>
+      <li onclick="window.location.href='http://127.0.0.1:5501/Admin/mostrar/index.html'">Buscar Comics</li>
+      <li onclick="window.location.href='/administrar-usuario.html'">Administrar Usuario</li>
+
+    </ul>
+  </div>
+  <div class="contenido">
+    <h2 style="color:white;font-size: 40px;">Registrar un Nuevo Comic</h2>
+
+    <div class="contenidoC">
+      <form id="comicForm">
+        <input type="text" readonly name="codComic" id="codComic" placeholder="Código del Comic-se llena al subir img" required>
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <!-- <input type="number" name="volumen" placeholder="Volumen" required> -->
+        <input type="text" name="editorial" placeholder="Editorial" required>
+        <input type="number" name="stock" placeholder="Stock" required>
+        <input type="number" step="0." name="precio" placeholder="Precio" required>
+        <input type="text" name="descripcion" placeholder="Descripción" required>
+        <input type="text" name="categoria" placeholder="Categorías (separadas por comas)">
+        <input type="text" name="autor" placeholder="Autor" required>
+        <input type="number" name="paginas" placeholder="Numero de Paginas" required>
+
+
+        
+        <input type="file" id="file-Input" accept="image/*">
+        <div class="imgC">
+          <img id="preview" src="" alt="">
+        </div>
+        <div class="botones">
+          <button class="saveC" type="button" id="uploadImageButton">Subir Imagen</button>
+          <button class="saveC" type="submit">Guardar Comic</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

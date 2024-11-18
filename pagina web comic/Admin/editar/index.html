@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Comics</title>
+    <link rel="shortcut icon" href="https://drive.google.com/thumbnail?id=1vfrMyHxA7rpldz9c2JVdejBoapJyHURG" type="image/x-icon">
+    <link rel="stylesheet" href="../../assets-generales/style.css">
+    <script src="../../assets-generales/script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu-icon" onclick="toggleMenu()" alt="menu-icon">
+            &#9776;
+        </div>
+        <a href="../../Pagina_Principal/index.html">
+            <div class="logo-cont">
+                <img class="logo-header" src="https://drive.google.com/thumbnail?id=1cB-ePvZmLltwAdJcyiD1prkNvpPNkqsj" alt="logo">
+            </div>
+        </a>
+    </header>
+    <div id="side-menu" class="side-menu">
+        <div class="user-info">
+            <!-- <img src="user_image.jpg" alt="User Image" class="user-image"> -->
+            <p>Admin</p>
+        </div>
+        <ul class="menu-list">
+            <li onclick="window.location.href='../panel/index.html'">Admin Panel</li>
+            <li onclick="window.location.href='http://localhost:4002/index.html'">Agregar Comics</li>
+            <li onclick="window.location.href='../editar/index.html'">Editar Comics</li>
+            <li onclick="window.location.href=''">Administrar Usuario</li>
+        </ul>
+    </div>
+
+    <h1>Editar Comics</h1>
+    <input type="text" id="searchInput" placeholder="Buscar por nombre...">
+    <table id="comicTable">
+        <thead>
+            <tr>
+                <th>codComic</th>
+                <th>Nombre</th>
+                <th>Volumen</th>
+                <th>Editorial</th>
+                <th>Stock</th>
+                <th>Precio</th>
+                <th>Descripción</th>
+                <th>Categoría</th>
+                <th>Autor</th>
+                <th>Paginas</th>
+            </tr>
+        </thead>
+        <tbody id="comicTableBody"></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>

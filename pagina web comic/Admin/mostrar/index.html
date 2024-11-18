@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://drive.google.com/thumbnail?id=1vfrMyHxA7rpldz9c2JVdejBoapJyHURG" type="image/x-icon">
+    <link rel="stylesheet" href="../../assets-generales/style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="../../assets-generales/script.js"></script>
+    <title>Mostrar Comics</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="menu-icon" onclick="toggleMenu()" alt="menu-icon">
+            &#9776;
+        </div>
+        <a href="../../Pagina_Principal/index.html">
+            <div class="logo-cont">
+                <img class="logo-header" src="https://drive.google.com/thumbnail?id=1cB-ePvZmLltwAdJcyiD1prkNvpPNkqsj" alt="logo">
+            </div>
+        </a>
+    </header>
+    <div id="side-menu" class="side-menu">
+        <div class="user-info">
+            <img src="user_image.jpg" alt="User Image" class="user-image">
+            <p>Admin</p>
+        </div>
+        <ul class="menu-list">
+            <li onclick="window.location.href='../panel/index.html'">Admin Panel</li>
+            <li onclick="window.location.href='http://localhost:4002/index.html'">Agregar Comics</li>
+            <li onclick="window.location.href='../editar/index.html'">Editar Comics</li>
+            <li onclick="window.location.href=''">Administrar Usuario</li>
+        </ul>
+    </div>
+
+    <div class="contenido">
+        <h1 style="text-align: center; color: white;">Mostrar Comics</h1>
+        <div class="input-cont">
+            <input type="text" id="searchInput" placeholder="Buscar por nombre...">
+        </div>
+
+        <div class="container">
+            <div class="table">
+                <div class="table-header">
+                    <div class="header__item"><a id="link-img" class="filter__link">Imagen</a></div>
+                    <div class="header__item"><a id="name" class="filter__link">Nombre</a></div>
+                    <div class="header__item"><a id="editorial" class="filter__link">Editorial</a></div>
+                    <div class="header__item"><a id="stock" class="filter__link">Stock</a></div>
+                    <div class="header__item"><a id="price" class="filter__link">Precio</a></div>
+                    <div class="header__item"><a id="author" class="filter__link">Autor</a></div>
+                    <div class="header__item"><a id="descripcion" class="filter__link">Descripcion</a></div>
+                    <div class="header__item"><a id="pages" class="filter__link">Páginas</a></div>
+                </div>
+                
+                <div class="table-content" id="comicTableBody"></div>
+            </div>
+            <style>
+                textarea{
+                    position: absolute;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    max-height: 150px;
+                }
+            </style>
+            <p id="noComicsMessage">No se encontraron cómics.</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

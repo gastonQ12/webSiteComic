@@ -1,0 +1,51 @@
+main {
+    margin-top: 6.9%;
+    width: 100%;
+    height: 50%;
+    background-color: aquamarine;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.card {
+    margin: 15px;
+}
+#noComicsMessage {
+    display: none;
+    text-align: center;
+    margin: 20px;
+}
+    
+
+
+
+
+
+footer {
+    background-color: #EC6227;
+    width: 100%;
+    height: 200px;
+    margin-top: 200px;
+}
+
+.cont-redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-redes img {
+    width: 50px;
+    height: 100PX;
+}
+
+.logo-footer {
+    width: 100px;
+
+}
+
+.raya {
+    width: 1000px;
+    height: 10px;
+}

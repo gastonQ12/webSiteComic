@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets-generales/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://drive.google.com/thumbnail?id=1vfrMyHxA7rpldz9c2JVdejBoapJyHURG" type="image/x-icon">
+    <script src="../../assets-generales/script.js"></script>
+    <title>Admin Panel</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-icon" onclick="toggleMenu()" alt="menu-icon">
+            &#9776;
+        </div>
+        <a href="../../Pagina_Principal/index.html">
+            <div class="logo-cont">
+                <img class="logo-header" src="https://drive.google.com/thumbnail?id=1cB-ePvZmLltwAdJcyiD1prkNvpPNkqsj" alt="logo">
+            </div>
+        </a>
+    </header>
+    <div id="side-menu" class="side-menu">
+        <div class="user-info">
+            <img src="user_image.jpg" alt="User Image" class="user-image">
+            <p>Admin</p>
+        </div>
+        <ul class="menu-list">
+            <li onclick="window.location.href='http://localhost:4002/index.html'">Agregar Comics</li>
+            <li onclick="window.location.href='../editar/index.html'">Editar Comics</li>
+            <li onclick="window.location.href='../mostrar/index.html'">Buscar Comics</li>
+            <li onclick="window.location.href=''">Administrar Usuario</li>
+
+        </ul>
+    </div>
+    
+    <div class="content">
+        <button onclick="window.location.href='http://localhost:4002/index.html'">Agregar Comic</button>
+        <button onclick="window.location.href='../editar/index.html'">Editar Comics</button>
+        <button onclick="window.location.href='../mostrar/index.html'">Buscar Comics</button>
+        <button onclick="window.location.href='/administrar-usuario.html'">Administrar usuario</button>
+    </div>
+
+</body>
+
+</html>
