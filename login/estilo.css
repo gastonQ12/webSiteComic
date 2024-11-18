@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&display=swap');
+
+        * {
+            margin: 0;
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+        }
+body{
+    background-color: #000000;
+    background-image: url(imgs/fondo.png);
+}
+
+.header{
+    background-color: #D8652D;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    margin-top: 3%;
+}
+
+.cine{
+    width: 350px;
+    height: 100px;
+}
+
+.nose{
+    
+    margin-left: 37%;
+    margin-top: 7%;
+    width: 500px;
+    height: 600px;
+    background-color: rgba(146, 146, 146, 0.74);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.nose2{
+    
+    margin-left: 37%;
+    margin-top: 7%;
+    width: 500px;
+    height: 1000px;
+    background-color: rgba(146, 146, 146, 0.74);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.ingreso{
+    background-color: #D8652D;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    margin-top: -1%;
+    position: absolute;
+}
+
+
+.infoPIBE{
+    margin-top: 15%;
+    font-size: 40px;
+    text-align: center;
+}
+
+input{
+    color: white;
+    font-size: 35px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+s
+
+input:focus{
+    outline: none;
+    color: white;
+}
+
+.ingresar{
+    background-color: #D8652D;
+    color: white;
+    font-size: 15px;
+    width: 125px;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+.ingresar:hover {
+    letter-spacing: 3px;
+    background-color: #D8652D(261deg 80% 48%);
+    color: #D8652D(0, 0%, 100%);
+    box-shadow: 5px 5px 60px #D8652D ;
+  }
+  
+  .ingresar:active {
+    letter-spacing: 3px;
+    background-color: #D8652D(261deg 80% 48%);
+    color: #D8652D(0, 0%, 100%);
+    box-shadow: #D8652D(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
+
+.nt{
+    color: white;
+}
+
+.reg{
+    text-decoration: none;
+    color: #D8652D;
+}
+
+.reg:hover{
+    color: white;
+
+}
+
+.user{
+    margin-right: 75%;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+.contra{
+    margin-right: 75%;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
