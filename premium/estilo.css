@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #202124;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    background-image: url(imgs/sisi.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 950px;
+    height: 500px;
+}
+
+
+
+.p1,.p2,.p3{
+    text-align: center;
+    margin: 20px;
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    border: 10px solid #EC6227;
+    transition: all 0.1s;
+}
+
+.p2{
+    margin-top: -10%;
+}
+
+.p1:hover,.p2:hover,.p3:hover{
+    transform: scale(1.1);
+}
+
+.precioNT{
+    width: 250px;
+    height: 75px;
+    margin-top: 116%;
+    background-color: black;
+    color: white;
+}
+
+.cositas{
+    margin-top: -120%;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30%;
+}
+
+.si{
+    height: 200px;
+    width: 200px;
+}
+
+.trolear{
+    margin-top: 45%;
+    width: 150px;
+    height: 50px;
+    background-color: #EC6227;
+    border: none;
+    color: white;
+    font-size: 25px;
+    transition: all 0.2s;
+}
+
+.trolear:hover{
+    width: 250px;
+}
+
+
+header{
+    width: 100%;
+    height: 40px;
+    background-color: #EC6227;
+    position:fixed;
+    top:0;
+}
+.logo-cont{
+    background-color: #EC6227;
+    width: 250px;
+    height: 55px;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%,20%)
+}
+.logo-header{
+    width: 200px;
+    position: relative;
+    bottom: 5%;
+}
+.menu-icon{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 1%;
+}
+
+.fondito{
+    z-index: -5;
+    position: absolute;
+    height: 1500px;
+    width: 2000px;
+    background-color: #202124;
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+
+.fondito2{
+    position: absolute;
+    height: 1500px;
+    width: 2000px;
+    background-color: #202124;
+    clip-path: polygon(150% 20%, 0 0, 0 50%);
+    transform: rotate(180deg);
+    margin-top: 30%;
+    z-index: 5;
+}
+
+.random{
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    z-index: -1;
+    margin-left: 75%;
+    margin-top: 25%;
+    transform: rotate(5deg);
+}
+
+.pieRICO{
+    z-index: 10;
+    position: absolute;
+    width: 2000px;
+    height: 300px;
+    margin-top: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(236,98,39);
+    background: linear-gradient(180deg, rgba(236,98,39,1) 19%, rgba(134,56,22,1) 88%);
+}
+
+.sociales{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.ic1,.ic2,.ic3,.ic4{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    transition: all 0.1s;
+}
+
+.ic1:hover,.ic2:hover,.ic3:hover,.ic4:hover{
+    transform: scale(1.2);
+}
+
+.logito{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-top: -1%;
+}
+
+.linea1{
+    position: absolute;
+    width: 800px;
+    background-color: #202124;
+    height: 5px;
+    margin-top: 6%;
+    margin-right: 60%;
+}
+
+.linea2{
+    position: absolute;
+    width: 800px;
+    background-color: #202124;
+    height: 5px;
+    margin-top: 6%;
+    margin-left: 60%;
+}
+
+.info{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 10px;
+}
+
+.cr{
+    position: absolute;
+    color: white;
+    right: 85%;
+    bottom: 2.5%;
+}
