@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ESTILOS DE ESTA VISTA -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ESTILOS GENERALES -->
+    <link rel="stylesheet" href="../assets-generales/style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="shortcut icon" href="https://drive.google.com/thumbnail?id=1vfrMyHxA7rpldz9c2JVdejBoapJyHURG"
+        type="image/x-icon">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>COMICS PEAK</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-icon" onclick="toggleMenu()" alt="menu-icon">
+            &#9776;
+        </div>
+        <div class="logo-cont">
+            <a href=""><img class="logo-header"
+                    src="https://drive.google.com/thumbnail?id=1cB-ePvZmLltwAdJcyiD1prkNvpPNkqsj" alt="logo"></a>
+        </div>
+    </header>
+    <div id="side-menu" class="side-menu">
+        <div class="user-info">
+            <img src="user_image.jpg" alt="User Image" class="user-image">
+            <p>Edgard Montaño</p>
+        </div>
+        <ul class="menu-list">
+            <li>Categorías</li>
+            <li>Estrenos</li>
+            <li>Contactos</li>
+            <li>Buscar</li>
+            <li>Subscripción</li>
+        </ul>
+        <div class="submenu">
+            <h3>Categorías</h3>
+            <ul>
+                <li>Comics</li>
+                <li>Mangas</li>
+            </ul>
+            <div class="categories">
+                <h4>CATEGORIAS</h4>
+                <ul>
+                    <li>Estrenos</li>
+                    <li>Aventura</li>
+                    <li>Acción</li>
+                    <li>Erótico</li>
+                    <li>Terror</li>
+                    <li>Romance</li>
+                    <li>Drama</li>
+                    <li>Comedia</li>
+                    <li>Fantasía</li>
+                    <li>Ciencia Ficción</li>
+                    <li>Deportes</li>
+                    <li>Superhéroes</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="container">
+            <h1 class="text-center my-4">Cómics</h1>
+            <div id="noComicsMessage" class="alert alert-warning">No hay cómics disponibles.</div>
+            <div class="row" id="comics-container"></div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="cont-redes">
+            <img class="raya" src="/Pagina_Principal/img/raya.svg" alt="">
+            <img src="/Pagina_Principal/img/logo-youtube.svg" alt="">
+            <img src="/Pagina_Principal/img/logo-twiiter.svg" alt="">
+            <img src="/Pagina_Principal/img/logo-instagram.svg" alt="">
+            <img src="/Pagina_Principal/img/logo-facebook.svg" alt="">
+            <img class="raya" src="/Pagina_Principal/img/raya.svg" alt="">
+        </div>
+        <img class="logo-footer" src="/Pagina_Principal/img/logo.svg" alt="logo-pagina  ">
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- SCRIPT DE ESTA VISTA -->
+    <script src="script.js"></script>
+    <!-- SCRIPT GENERAL -->
+    <script src="../assets-generales/script.js"></script>
+</body>
+
+</html>

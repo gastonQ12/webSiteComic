@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "almacenaminetocomics",
+    "private_key_id": "836537c355c3541bbf2b1f8024eda00d1cb343a8",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC6p8FEXsSge/3E\nJ94LV5D2qTY3dlojuWPpkn+5ASRsv849OakS9ODYg1ReDdCYeVV4kYEsCrd8mwJl\nsS0aDfGebFoVFUrPTg6kGg6JcQyA1+U9CfKpd8hcqW4Sis2+EY7hsCBjSQO+Je2m\nnRxoaxPJAChXwIM2Rn/rfbWOAzZHkJWp9wdhHE761NRjsvSf64Q3RvmHZDmXXv4K\nwIsSbzypwHwmuDbF3sutBevbiC2cH8e9OIElEBeFKtYz6jnNnOWuk9e2LxOeNKEn\nnBbWbFWba5JsFtoQD5plC1R81hprUN23WLxlPD7zt1vJ3vTWC7z1MCIzXSBXCCJS\nuP0DxFcXAgMBAAECggEASG8eTKJ8Ko1DctJH1F30dww+anKG03M3xyYfY5OCZ6Nd\nbRwJtT4LXWpFnMQ+rVT0qrfIiWdVQklDOmRxzLkZiTGiGalsIRu5CczE1GhnAj8G\nClRoc4R04CSt/wsXgYl9ya5YOz9T8P/2BCDXK9xVzrw9a6RdJvxf2uqrQIOVllpm\nlHf52XkL0004tDBoqigU3/XWG40XfCpR7Mnc2TcsIB7E/b3RebMiWYal/cclPMhT\nRnPpWja488XrcFplf9Cz1V6EG73vSl2gFTtpfuqiYab7R5eye+B81T9VgD3w72mJ\nfvjL9LkV4rhM4wEzJiGifXy45LRcIxanIn+0YDPBzQKBgQDwaP+fosGbLI2oE8oB\n5hq38rooY14LbT7hgV0XjBVN/hXGjFeUqVuYNtBC4Lj0z/k0/Ujkr0pnHZvwMZ+1\nbNRDXc4FB7R/udjI38npofErwHE/mSP/FYel0u5Qh3D+MB+5qeFNpyul5qSvtgk6\nhBX0ZB9TB0OHwgBuRUrUAz7/UwKBgQDGwmH0R1JPOWS2GDRQDkvAiRyOh/De26tG\nr7YbD2mycY7D86ngE55DOSkB0l5VRPxUzoJseESOuWUaVq9Wl2OU1OI2xhzvRuY8\nYHzJHJ+rXB/LXKjw5XQVTr7yjxigyj5DOfrX1wM9RwzojNNdpofVNUm86d0z1BRo\nw2mhvOmErQKBgBCpVj38C6rzdYXWiUOEbQmemuQ9rsDf+2Gpk4gUP02+dEfkZhV5\nf02XTuuzo13kJANWIn0m4OMwnCQTbFwohLV+hM64b/wCJ1IUoGu+u3Yqyi58MJB3\nL4WAjt+p41zafPhjG6hEE7RVvcgnt5AEo3jij4EzmayI93qs9rim2PDdAoGAcVgW\nPhSSBqXHHeSNqH2Oi1xlUY6KOLxyXtwC8EmIz/7cGDiSzjrBzLoC/Yv2yY+Oido+\nHBc1mWJ2GmAGm023tv7zhaLSi00WLKYlYxaUo0bkxravjLh8y03drDsYI1FR0kp1\nFrMBoOcsoEz2l/hIi7hYtYdz4oN1pAyT52zwif0CgYA2IQiJWWY5+XRrBeCRjkwJ\nh3T0MXr+DPOJoATSNQqvi6Jos/NRqoWGv7mWyJ95itQH0yrDX4FowmSS5y/NQFHv\niTI/15hU3bNtuF0yO6zWISxR2AoI1t6EoRS91cs2Bfupk33PDcwUiXvzkn65byXZ\nzqpLg/XkwHSDPy0ifRqMFw==\n-----END PRIVATE KEY-----\n",
+    "client_email": "almacenamiento-comics@almacenaminetocomics.iam.gserviceaccount.com",
+    "client_id": "100831593844348909330",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/almacenamiento-comics%40almacenaminetocomics.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+}
